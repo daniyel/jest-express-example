@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "pretty": true,
+        "declaration": true,
+        "strict": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "lib": ["es2017"]
+    },
+    "files": [
+        "./node_modules/@types/node/index.d.ts"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.spec.ts"
+    ]
+}
